@@ -81,11 +81,12 @@ body {
   border-radius:10px;
   transition:0.3s;
   cursor:pointer;
+
 }
 .second-section {
   background:var(--light-theme-color);
-  width:30.4%;
-  height:400px;
+  width:47%;
+  height:350px;
   justify-content:center;
   display:flex;
   margin:20px auto;
@@ -137,11 +138,121 @@ body {
   transition:0.3s;
   cursor:pointer;
 }
-@media only screen and (max-width: 600px) {
+@font-face {
+    font-family:Aviny;
+    src: url('../font/Aviny.ttf');
+}
+@font-face {
+    font-family:Vazir;
+    src: url('../font/Vazir.ttf');
+}
+@media screen and (max-width: 320px) {
   .header-text {
     font-size:28px;
   }
   .header-text-box {
     margin:10px 3px;
+  }
+  .monitor {
+    height:400px;
+  }
+  .section-container {
+    flex-wrap:wrap;
+  }
+  .first-section {
+    flex: 0 0 calc(100% - 20px);
+  }
+  .second-section {
+    flex: 0 0 calc(100% - 20px);
+  }
+  .third-section {
+    flex: 0 0 calc(100% - 20px);
+  }
+  .fourth-section {
+    flex: 0 0 calc(100% - 20px);
+  }
+  .fifth-section {
+    flex: 0 0 calc(100% - 20px);
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 650px) {
+  .header-text {
+    font-size:28px;
+  }
+  .header-text-box {
+    margin:10px 3px;
+  }
+  .monitor {
+    height:400px;
+  }
+  .section-container {
+    flex-wrap:wrap;
+  }
+  .first-section {
+    flex: 0 0 calc(100% - 20px);
+  }
+  .second-section {
+    flex: 0 0 calc(100% - 20px);
+  }
+  .third-section {
+    flex: 0 0 calc(100% - 20px);
+  }
+  .fourth-section {
+    flex: 0 0 calc(100% - 20px);
+  }
+  .fifth-section {
+    flex: 0 0 calc(100% - 20px);
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 990px) {
+  .header-text {
+    font-size:28px;
+  }
+  .header-text-box {
+    margin:10px 3px;
+  }
+  .monitor {
+    height:400px;
+  }
+  .section-container {
+    flex-wrap:wrap;
+  }
+  .first-section {
+    flex: 0 0 calc(50% - 20px);
+  }
+  .second-section {
+    flex: 0 0 calc(50% - 20px);
+  }
+  .third-section {
+    flex: 0 0 calc(50% - 20px);
+  }
+  .fourth-section {
+    flex: 0 0 calc(50% - 20px);
+  }
+  .fifth-section {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+@media screen and (min-width: 990px) and (max-width: 1360px) {
+  .header-text {
+    font-size:28px;
+  }
+  .header-text-box {
+    margin:10px 3px;
+  }
+  .monitor {
+    height:400px;
+  }
+  .section-container {
+    flex-wrap:wrap;
+  }
+  .first-section {
+    flex: 0 0 calc(33.33% - 20px);
+  }
+  .third-section {
+    flex: 0 0 calc(33.33% - 20px);
+  }
+  .fifth-section {
+    flex: 0 0 calc(33.33% - 20px);
   }
 }
