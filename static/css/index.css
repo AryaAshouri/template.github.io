@@ -1,6 +1,8 @@
 * {
   padding:0px;
   margin:0px;
+  user-select:none;
+  scroll-behavior:smooth;
 }
 *:focus {
   outline:none;
@@ -152,6 +154,7 @@ body {
   display:flex;
   margin:0px;
   border-radius:0px;
+  align-items:center;
   transition:0.3s;
   cursor:pointer;
 }
