@@ -75,11 +75,11 @@ body {
   margin:10px 5px;
   backdrop-filter: blur(16px);
   transition:0.5s;
-  cursor:pointer;
+  /* cursor:pointer; */
 }
-.header-text-box:hover {
+/* .header-text-box:hover {
   background-color:var(--third-theme-color);
-}
+} */
 .monitor {
   background:var(--second-theme-color);
   width:97%;
@@ -101,7 +101,6 @@ body {
   margin:20px auto;
   border-radius:10px;
   transition:0.3s;
-  cursor:pointer;
 }
 .inner-first-section-first {
   background:var(--third-theme-color);
@@ -111,12 +110,16 @@ body {
   display:flex;
   margin:30px auto;
   border-radius:10px 10px 0 0;
+  transition:0.3s;
+  cursor:pointer;
 }
 .inner-first-section-second {
   background:var(--third-theme-color);
   width:80%;
   height:60px;
   margin:-20px auto;
+  transition:0.3s;
+  cursor:pointer;
 }
 .inner-first-section-third {
   background:var(--third-theme-color);
@@ -124,6 +127,8 @@ body {
   height:180px;
   margin:30px auto;
   border-radius:0 0 10px 10px;
+  transition:0.3s;
+  cursor:pointer;
 }
 .second-section {
   background:var(--second-theme-color);
@@ -133,7 +138,6 @@ body {
   margin:20px auto;
   border-radius:10px;
   transition:0.3s;
-  cursor:pointer;
 }
 .inner-second-section-first {
   background:var(--third-theme-color);
@@ -143,6 +147,8 @@ body {
   display:flex;
   margin:30px auto;
   border-radius:10px 10px 0 0;
+  transition:0.3s;
+  cursor:pointer;
 }
 .inner-second-section-second {
   background:var(--third-theme-color);
@@ -152,6 +158,8 @@ body {
   display:flex;
   margin:-20px auto;
   border-radius:0 0 10px 10px;
+  transition:0.3s;
+  cursor:pointer;
 }
 .third-section {
   background:var(--second-theme-color);
@@ -162,57 +170,17 @@ body {
   margin:20px auto;
   border-radius:10px;
   transition:0.3s;
-  cursor:pointer;
 }
 .inner-third-section-first {
   background:var(--third-theme-color);
-  width:15.3%;
+  width:95.5%;
   height:290px;
   justify-content:center;
   display:flex;
   margin:30px 5px;
-  border-radius:10px 0 0 10px;
-}
-.inner-third-section-second {
-  background:var(--third-theme-color);
-  width:15.3%;
-  height:290px;
-  justify-content:center;
-  display:flex;
-  margin:30px 5px;
-}
-.inner-third-section-third {
-  background:var(--third-theme-color);
-  width:15.3%;
-  height:290px;
-  justify-content:center;
-  display:flex;
-  margin:30px 5px;
-}
-.inner-third-section-fourth {
-  background:var(--third-theme-color);
-  width:15.3%;
-  height:290px;
-  justify-content:center;
-  display:flex;
-  margin:30px 5px;
-}
-.inner-third-section-fifth {
-  background:var(--third-theme-color);
-  width:15.3%;
-  height:290px;
-  justify-content:center;
-  display:flex;
-  margin:30px 5px;
-}
-.inner-third-section-sixth {
-  background:var(--third-theme-color);
-  width:15.3%;
-  height:290px;
-  justify-content:center;
-  display:flex;
-  margin:30px 5px;
-  border-radius:0 10px 10px 0;
+  border-radius:10px;
+  transition:0.3s;
+  cursor:pointer;
 }
 .fourth-section {
   background:var(--second-theme-color);
@@ -222,7 +190,6 @@ body {
   margin:20px auto;
   border-radius:10px;
   transition:0.3s;
-  cursor:pointer;
 }
 .inner-fourth-section-first {
   background:var(--third-theme-color);
@@ -232,6 +199,8 @@ body {
   display:flex;
   margin:30px auto;
   border-radius:10px 10px 0 0;
+  transition:0.3s;
+  cursor:pointer;
 }
 .inner-fourth-section-second {
   background:var(--third-theme-color);
@@ -241,6 +210,8 @@ body {
   display:flex;
   margin:-20px auto;
   border-radius:0 0 10px 10px;
+  transition:0.3s;
+  cursor:pointer;
 }
 .fifth-section {
   background:var(--second-theme-color);
@@ -252,7 +223,6 @@ body {
   margin:20px auto;
   border-radius:10px;
   transition:0.3s;
-  cursor:pointer;
 }
 .inner-fifth-section-first {
   background:var(--third-theme-color);
@@ -262,12 +232,16 @@ body {
   display:flex;
   margin:30px auto;
   border-radius:10px 10px 0 0;
+  transition:0.3s;
+  cursor:pointer;
 }
 .inner-fifth-section-second {
   background:var(--third-theme-color);
   width:80%;
   height:60px;
   margin:-20px auto;
+  transition:0.3s;
+  cursor:pointer;
 }
 .inner-fifth-section-third {
   background:var(--third-theme-color);
@@ -275,6 +249,8 @@ body {
   height:180px;
   margin:30px auto;
   border-radius:0 0 10px 10px;
+  transition:0.3s;
+  cursor:pointer;
 }
 .footer {
   background:var(--second-theme-color);
@@ -286,7 +262,6 @@ body {
   border-radius:0px;
   align-items:center;
   transition:0.3s;
-  cursor:pointer;
 }
 @font-face {
     font-family:Aviny;
