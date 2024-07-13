@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<link rel="stylesheet" href="static/css/index.css">
+		<meta charset="UTF-8">
+    <meta name="theme-color" content="#000000">
+    <meta name="author" content="Arya Ashouri">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Arya Ashouri" content="Developer who loves creativity and tries to solve problems through ways which are not very common - AryaAshouri">
+    <meta name="keywords" content="AryaAshouri, Arya_Ashouri, Arya-Ashouri, Arya Ashouri, آریا آشوری">
+    <meta property="og:title" content="Arya Ashouri - Portfolio">
+    <meta property="og:description" content="Developer who loves creativity and tries to solve problems through ways which are not very common - AryaAshouri">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/105889684?v=4">
+    <meta property="og:url" content="https://aryaashouri.github.io">
+    <meta name="twitter:title" content="Arya Ashouri - Portfolio">
+    <meta name="twitter:description" content="Developer who loves creativity and tries to solve problems through ways which are not very common - AryaAshouri">
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/105889684?v=4">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="icon" href="static/img/icon/icon.png">
 		<title>
-			Template
+			آریا آشوری
 		</title>
 	</head>
 	<body>
 		<div data-aos="fade-down" class="header">
 			<div onclick="home()" class="header-text-box">
-				<p class="header-text"></p>
+				<p class="header-text">خانه</p>
 			</div>
 			<div class="header-text-box">
-				<p class="header-text"></p>
+				<p onclick="skill()" class="header-text">مهارت</p>
 			</div>
-			<div class="header-text-box">
-				<p class="header-text"></p>
+			<div onclick="project()" class="header-text-box">
+				<p class="header-text">پروژه</p>
 			</div>
-			<div class="header-text-box">
-				<p class="header-text"></p>
+			<div onclick="about()" class="header-text-box">
+				<p class="header-text">درباره</p>
 			</div>
-			<div class="header-text-box">
-				<p class="header-text"></p>
+			<div onclick="resume()" class="header-text-box">
+				<p class="header-text">رزومه</p>
+			</div>
+			<div onclick="contact()" class="header-text-box">
+				<p class="header-text">ارتباط</p>
 			</div>
 		</div>
 
@@ -35,75 +50,52 @@
 		<div class="interval"></div>
 		<div class="interval"></div>
 
-		<div class="section-container">
+		<div data-aos="fade-up" data-aos-duration="650" class="section-intro-text">مهارت ها</div>
+		<div class="section-intro-text-interval"></div>
+
+		<div data-aos="fade-up" data-aos-duration="650" class="section-container">
 			<div class="first-section">
-				<div class="inner-first-section-first"></div>
-				<div class="inner-first-section-second"></div>
-				<div class="inner-first-section-third"></div>
-			</div>
-			<div class="first-section">
-				<div class="inner-first-section-first"></div>
-				<div class="inner-first-section-second"></div>
-				<div class="inner-first-section-third"></div>
-			</div>
-			<div class="first-section">
-				<div class="inner-first-section-first"></div>
-				<div class="inner-first-section-second"></div>
-				<div class="inner-first-section-third"></div>
-			</div>
-			<div class="first-section">
-				<div class="inner-first-section-first"></div>
-				<div class="inner-first-section-second"></div>
-				<div class="inner-first-section-third"></div>
-			</div>
-		</div>
-
-		<div class="interval"></div>
-		<div class="interval"></div>
-		<div class="interval"></div>
-
-		<div class="section-container">
-			<div class="second-section">
-				<div class="inner-second-section-first"></div>
-				<div class="inner-second-section-second"></div>
-					<div class="inner-second-section-third"></div>
-			</div>
-			<div class="second-section">
-				<div class="inner-second-section-first"></div>
-				<div class="inner-second-section-second"></div>
-					<div class="inner-second-section-third"></div>
-			</div>
-			<div class="second-section">
-				<div class="inner-second-section-first"></div>
-				<div class="inner-second-section-second"></div>
-					<div class="inner-second-section-third"></div>
-			</div>
-		</div>
-
-		<div class="interval"></div>
-		<div class="interval"></div>
-		<div class="interval"></div>
-
-		<div class="third-section">
-			<div class="inner-third-section-first"></div>
-		</div>
-
-		<div class="interval"></div>
-		<div class="interval"></div>
-
-		<div class="section-container">
-			<div class="fourth-section">
-				<div class="inner-fourth-section-first"></div>
-				<div class="inner-fourth-section-second-container">
-					<div class="inner-fourth-section-second"></div>
-					<div class="inner-fourth-section-third"></div>
+				<div class="inner-first-section-first">
+					<img class="inner-first-section-first-image" src="./static/img/icon/raw/web.png">
+				</div>
+				<div class="inner-first-section-second">
+					<p class="inner-first-section-first-title">طراحی وبسایت و وبلاگ</p>
+				</div>
+				<div class="inner-first-section-third">
+					<div class="inner-first-section-first-description"> طراحی صفحات وب بوسیله بروز ترین تکنولوژی های روز همراه با پایگاه داده و بک اند. دیزاین سایت همراه با برنامه های حرفه ای شامل فیگما و فتوشاپ و ادوبی ایلاستریتور</div>
 				</div>
 			</div>
-			<div class="fourth-section">
-				<div class="inner-fourth-section-first"></div>
-				<div class="inner-fourth-section-second-container">
-					<div class="inner-fourth-section-second"></div>
-					<div class="inner-fourth-section-third"></div>
+			<div class="first-section">
+				<div class="inner-first-section-first">
+					<img class="inner-first-section-first-image" src="./static/img/icon/raw/pc.png">
+				</div>
+				<div class="inner-first-section-second">
+					<p class="inner-first-section-first-title">طراحی اپلیکیشن ویندوز</p>
+				</div>
+				<div class="inner-first-section-third">
+					<div class="inner-first-section-first-description">تولید اپلیکیشن و برنامه های تحت ویندوز بوسیله زبان برنامه نویسی پرکاربرد و معروف سی شارپ بخش ویندوز فرم بعلاوه طراحی پایگاه داده برای ذخیره اطلاعات مورد نیاز در آن</div>
+				</div>
+			</div>
+			<div class="first-section">
+				<div class="inner-first-section-first">
+					<img class="inner-first-section-first-image" src="./static/img/icon/raw/ic.png">
+				</div>
+				<div class="inner-first-section-second">
+					<p class="inner-first-section-first-title">برنامه نویسی کیت ربات</p>
+				</div>
+				<div class="inner-first-section-third">
+					<div class="inner-first-section-first-description">علاوه بر توسعه و یادگیری زبان های پرکاربرد برای کار با سخت افزار قادر به برنامه نویسی و طراحی کیت های خام ربات به زبان اسمال بیسیک در فضای اختصاصی و حرفه ای بسکام</div>
+				</div>
+			</div>
+			<div class="first-section">
+				<div class="inner-first-section-first">
+					<img class="inner-first-section-first-image" src="./static/img/icon/raw/db.png">
+				</div>
+				<div class="inner-first-section-second">
+					<p class="inner-first-section-first-title">طراحی بانک اطلاعاتی</p>
+				</div>
+				<div class="inner-first-section-third">
+					<div class="inner-first-section-first-description">طراحی و ایجاد بانک های اطلاعاتی برای ذخیره اطلاعات در فضای وب و یا اپ بوسیله دیتابیس های مطرح رده بالا برای برنامه های اختصاصی ویندوز که امنیت قابل تضمینی دارند</div>
 				</div>
 			</div>
 		</div>
@@ -112,26 +104,132 @@
 		<div class="interval"></div>
 		<div class="interval"></div>
 
-		<div class="section-container">
+		<div data-aos="fade-up" data-aos-duration="650" class="section-intro-text">پروژه ها</div>
+		<div class="section-intro-text-interval"></div>
+
+		<div data-aos="fade-up" data-aos-duration="650" class="section-container">
+			<div class="second-section">
+				<div class="inner-second-section-first">
+					<p class="inner-second-section-first-title">پروژه شماره ۱</p>
+				</div>
+				<div class="inner-second-section-second">
+					<img class="inner-second-section-first-image" src="./static/img/poster/blog_raw.png">
+				</div>
+					<div onclick="first_project()" class="inner-second-section-third">
+						<p class="inner-second-section-first-visit-button">مشاهده پروژه</p>
+					</div>
+			</div>
+			<div class="second-section">
+				<div class="inner-second-section-first">
+					<p class="inner-second-section-first-title">پروژه شماره ۲</p>
+				</div>
+				<div class="inner-second-section-second">
+					<img class="inner-second-section-first-image" src="./static/img/poster/blog_raw.png">
+				</div>
+					<div onclick="second_project()" class="inner-second-section-third">
+						<p class="inner-second-section-first-visit-button">مشاهده پروژه</p>
+					</div>
+			</div>
+			<div class="second-section">
+				<div class="inner-second-section-first">
+					<p class="inner-second-section-first-title">پروژه شماره ۳</p>
+				</div>
+				<div class="inner-second-section-second">
+					<img class="inner-second-section-first-image" src="./static/img/poster/blog_raw.png">
+				</div>
+					<div onclick="third_project()" class="inner-second-section-third">
+						<p class="inner-second-section-first-visit-button">مشاهده پروژه</p>
+					</div>
+			</div>
+		</div>
+
+		<div class="interval"></div>
+		<div class="interval"></div>
+		<div class="interval"></div>
+
+		<div data-aos="fade-up" data-aos-duration="650" class="section-intro-text">درباره</div>
+		<div class="section-intro-text-interval"></div>
+
+		<div data-aos="fade-up" data-aos-duration="650" class="section-container">
+			<div class="third-section">
+				<div class="inner-third-section-first">
+					<p class="inner-third-section-first-description">سلام! آریا آشوری هستم ۱۶ ساله از تهران :) راستش الان چیزی برای اضافه کردن به این بخش ندارم و صرفا دارم تلاشم رو میکنم حدالامکان این متن رو طول بدم تا بلکن جلوه ی جذاب تری در قالب داشته باشه. جدا از این حرف ها باید بگم که به برنامه نویسی علاقه دارم و سه سالی میشه که تو حوزه وب فعالیت میکنم و از همون موقع عاشق بک‌اند بودم چون کار کردن تو این زمینه بهم احساس باهوش بودن میداد اما ناگفته نماند که همیشه تو فرانت ایده های تازه تر و باحال تری داشتم و این شد که الان اینجام! تو این مسیر سه ساله به لطف مدرسه قبلیم(دبیرستان علامه حلی ۴ دوره اول(تاکید میکنم دوره اول چون علامه حلی ۴ دوره دوم که درحال حاضر به تحصیل درش مشغولم تا الان چیز خاصی رو نکرده و فکر میکنم همینطوری قراره پیش بره)) مهارت هایی یاد گرفتم که خیلی گسترده و سطحی بودن و از این مساله تقریبا راضی ام چون با تکنولوژی های زیادی نه فقط تو حوزه برنامه نویسی بلکه تو حوزه دیزاین و ادیت ویدیو و ... آشنا شدم و بهم یه دید نسبتا گسترده ای درمورد اینکه کار ها چطور پیش میرن و به سرانجام میرسن داد اما چرا میگم نبستا راضی ام؟ چون اگه قرار باشه دوباره برنامه نویسی رو شروع کنم میرم از زبانی مثل سی شروع میکنم و مسیر یادگیری رو نه از اینترنت بلکه از کتاب سپری میکنم چون کتاب عموما مفاهیم عمیق تری رو میتونه دربر داشته باشه تا دوره هایی که جدیدا باب شدن(البته از حق نگذریم یسری دوره ها و افراد باسواد هستن که حق مطلب رو حتی از کتاب هم بهتر ادا میکنن چون تسلطی که دارن نتیجه مطالعه همون کتاب ها و آمیختن دانششون با مهارت آموزششون هست که نتیجه یه چیز ناب میشه). سرتون رو درد نیارم، دیگه متن هم داره قالب مستطیل شکلی که میخواستمو به خودش میگیره و نوشتن رو همینجا به پایان میرسونیم</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="interval"></div>
+		<div class="interval"></div>
+
+		<div data-aos="fade-up" data-aos-duration="650" class="section-intro-text">رزومه</div>
+		<div class="section-intro-text-interval"></div>
+
+		<div data-aos="fade-up" data-aos-duration="650" class="section-container">
+			<div class="fourth-section">
+				<div onclick="first_resume()" class="inner-fourth-section-first">
+					<p class="inner-fourth-section-first-title">برو به کوئرای من سر بزن</p>
+					<p class="inner-fourth-section-first-description">در این بخش از رزومه به بررسی سوالات<br>الگوریتمی حل شده سایت کوئرا میپردازیم</p>
+				</div>
+			</div>
+			<div class="fourth-section">
+				<div onclick="second_resume()" class="inner-fourth-section-first">
+					<p class="inner-fourth-section-first-title">برو به گیتهاب من سر بزن</p>
+					<p class="inner-fourth-section-first-description">در این بخش از رزومه به بعضی از پروژه هایی<br>که تا به حال انجام دادم یه نگاهی میندازیم</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="interval"></div>
+		<div class="interval"></div>
+		<div class="interval"></div>
+
+		<div data-aos="fade-up" data-aos-duration="650" class="section-intro-text">ارتباط</div>
+		<div class="section-intro-text-interval"></div>
+
+		<div data-aos="fade-up" data-aos-duration="650" class="section-container">
 			<div class="fifth-section">
-				<div class="inner-fifth-section-first"></div>
-				<div class="inner-fifth-section-second"></div>
-				<div class="inner-fifth-section-third"></div>
+				<div class="inner-fifth-section-first">
+					<img onclick="first_contact()" class="inner-fifth-section-first-image" src="./static/img/icon/raw/id.png">
+				</div>
+				<div class="inner-fifth-section-second">
+					<p class="inner-fifth-section-first-title">آدرس شخصی جی میل</p>
+				</div>
+				<div class="inner-fifth-section-third">
+					<div class="inner-fifth-section-first-description">شما می توانید از طریق لینک درج شده درون قطب نما، در پیام رسان های مذکور با بنده ارتباط بگیرید و انتقاد ها و پیشنهاد هایی که دارید را در قالب پیامی در پیامرسان بفرستید</div>
+				</div>
 			</div>
 			<div class="fifth-section">
-				<div class="inner-fifth-section-first"></div>
-				<div class="inner-fifth-section-second"></div>
-				<div class="inner-fifth-section-third"></div>
+				<div class="inner-fifth-section-first">
+					<img onclick="second_contact()" class="inner-fifth-section-first-image" src="./static/img/icon/raw/id.png">
+				</div>
+				<div class="inner-fifth-section-second">
+					<p class="inner-fifth-section-first-title">آدرس شخصی تلگرام</p>
+				</div>
+				<div class="inner-fifth-section-third">
+					<div class="inner-fifth-section-first-description">شما می توانید از طریق لینک درج شده درون قطب نما، در پیام رسان های مذکور با بنده ارتباط بگیرید و انتقاد ها و پیشنهاد هایی که دارید را در قالب پیامی در پیامرسان بفرستید</div>
+				</div>
 			</div>
 			<div class="fifth-section">
-				<div class="inner-fifth-section-first"></div>
-				<div class="inner-fifth-section-second"></div>
-				<div class="inner-fifth-section-third"></div>
+				<div class="inner-fifth-section-first">
+					<img onclick="third_contact()" class="inner-fifth-section-first-image" src="./static/img/icon/raw/id.png">
+				</div>
+				<div class="inner-fifth-section-second">
+					<p class="inner-fifth-section-first-title">آدرس شخصی دیسکورد</p>
+				</div>
+				<div class="inner-fifth-section-third">
+					<div class="inner-fifth-section-first-description">شما می توانید از طریق لینک درج شده درون قطب نما، در پیام رسان های مذکور با بنده ارتباط بگیرید و انتقاد ها و پیشنهاد هایی که دارید را در قالب پیامی در پیامرسان بفرستید</div>
+				</div>
 			</div>
-			<div  class="fifth-section">
-				<div class="inner-fifth-section-first"></div>
-				<div class="inner-fifth-section-second"></div>
-				<div class="inner-fifth-section-third"></div>
+			<div class="fifth-section">
+				<div class="inner-fifth-section-first">
+					<img onclick="fourth_contact()" class="inner-fifth-section-first-image" src="./static/img/icon/raw/id.png">
+				</div>
+				<div class="inner-fifth-section-second">
+					<p class="inner-fifth-section-first-title">آدرس شخصی بله</p>
+				</div>
+				<div class="inner-fifth-section-third">
+					<div class="inner-fifth-section-first-description">شما می توانید از طریق لینک درج شده درون قطب نما، در پیام رسان های مذکور با بنده ارتباط بگیرید و انتقاد ها و پیشنهاد هایی که دارید را در قالب پیامی در پیامرسان بفرستید</div>
+				</div>
 			</div>
 		</div>
 
@@ -139,6 +237,6 @@
 		<div class="interval"></div>
 
 		<div class="footer"></div>
-		<script src="static/js/index.js"></script>
+		<script src="./static/js/index.js"></script>
 	</body>
 </html>
